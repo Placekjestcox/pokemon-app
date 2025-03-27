@@ -1,0 +1,79 @@
+.App {
+  background-color: white;
+}
+.pokemon-search {
+
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+}
+
+.pokemon-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+} 
+
+.pokemon-table td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid red;
+  width: 200px;
+}
+
+.pagination button {
+  margin: 10px;
+}
+
+.pokemon-table td img {
+  width: 200px;
+}
+
+.pokemon-table a {
+  font-size: 20px;
+}
+
+#pokemon-input {
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  background-color: lightskyblue;
+  border: 0;
+  margin-right: 5px;
+  color: black;
+}
+#Search {
+  background-color: lightgray;
+  border: 0;
+  height: 40px;
+  width: 75px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+#Next {
+  background-color: red;
+  color: white;
+  padding: 10px 20px; 
+  text-align: center;
+  border: 2px solid black;
+}
+
+#Previous {
+  background-color: red; 
+  color: white;
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  border: 2px solid black;
+}
+  
+#Previous:disabled {
+  background-color: lightgray; 
+  color: gray; 
+  cursor: not-allowed; 
+  }
+
+  
+ 
