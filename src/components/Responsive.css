@@ -1,0 +1,1022 @@
+
+@media (max-width: 768px) and (orientation: portrait) {
+    body {
+      background-color: white;
+    }
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px; 
+      
+    }
+    .search-input {
+      width: 88%;
+      min-width: none;
+      max-width: none;
+    }
+    .pokemon-grid {
+      display: block;
+      width: 100%;
+      padding: 10px;
+    }
+    .pokemon-search {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      max-height: 6%;
+      border-radius: 10px;
+      padding: 2.5px;
+      gap: 10px; 
+    }
+    .extra-button {
+      display: flex;
+      align-items: center;
+      min-width: 10%;
+      height: 40px;
+    }
+    .extra-button button {
+      font-size: 12px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    .buttons-container {
+      display: flex;
+      gap: 0px;
+      justify-content: center;
+      align-items: center;
+      width: 75%;
+    }
+    .buttons-container button {
+      height: 35px;
+      width: 7%;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+    #Prevv {
+      width: 100%;
+      height: 35px;
+      background-color: lightgray;
+      color: black;
+      border: 0;
+    } 
+    #Nextt {
+      width: 100%;
+      height: 35px;
+      background-color: lightgray;
+      color: black;
+      border: 0;
+    }
+    .pokemon {
+      width: 90%;
+      height: 20%;
+    }
+    .name {
+      width: auto; 
+    }
+    #pokemon-id {
+      height: 0px;
+      display: block;
+      margin-bottom: 20%;
+      padding-left: 5px;
+    }
+    #pokemon-name {
+      height: 50px;
+      width: 100%;
+      font-size: 17px;
+      padding: 0px;
+      padding-right: 5px;
+    }
+    .Description {  
+      width: 90%;
+    }
+    .Description p {
+      font-size: 12px;
+      padding-left: 20px;
+    }
+    #Desc {
+      padding: 10px 0 5px 20px;
+      font-size: 17px;
+    }
+    .PhysicalAtributes {
+      display: block;
+      width: 90%;
+      height: 15%;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    #Physical {
+      width: 100%;
+      font-size: 17px;
+      padding: 10px 0 5px 20px;
+      display: block;
+    }
+    .Height  {
+      padding-left: 7%;
+      height: 20%;
+    }
+    .Weight {
+      height: 20%;
+      margin-bottom: 5px;
+    }
+    .Abilites  {
+      padding-left: 7%;
+      height: 20%;
+    }
+    .PhysicalAtributes b {
+     font-size: 13px;
+    }
+    .BaseStats {
+      width: 90%;
+      margin-left: 6%;
+      height: 24%;
+    }
+    .stat {
+      height: 15%;
+    }
+    .stat-name {
+      font-size: 13px;
+    }
+    .stat-value {
+      font-size: 13px;
+      margin-top: 3px;
+      margin-left: 0px;
+    }
+    #stats {
+      font-size: 17px;
+      padding: 0 0 5px 5px;
+      display: block;
+    }
+    .belt {
+      width: 95%;
+    }
+    .all-stats {
+      width: 100%;
+    }
+    .EvolutionChain {
+      width: 90%;
+      height: 14%;   
+    }
+    #Evo {
+      padding: 10px 0 5px 20px;
+      font-size: 17px;
+      width: 100%;
+      display: block; 
+      margin-bottom: 10px;}
+    .evolution {
+      display: block; 
+      height: 60px;
+      width: 60px; 
+    }
+    .evolution-images {
+      height: 50px;
+      float: left;
+      flex-wrap: nowrap;
+    }
+    .evolution img {
+      margin: 0;
+      padding: 0;
+      width: 60px;
+      height: 60px;
+    }
+    .highlight {
+      height: 65px;
+      width: 65px;
+      font-weight: bold;
+      padding-right: 20px;
+    }
+    .highlight p{
+      width: 0px;
+      text-align: center;
+      margin-right: 55px;
+      font-size: 13px;
+    }
+    .evolution p {
+      font-size: 13px;
+    }
+    #arrow {
+      height: 0;
+      width: 0;
+      margin-bottom: 60%;
+      display: none;
+    }
+    .Moves {
+      width: 90%;
+    }
+    .moves-table {
+      margin-top: 0;
+      width: 100%
+    }
+    .Moves p {
+      padding: 5px 0 5px 20px;
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .filter-button-div {
+      position: fixed;
+      top: 33.5%;
+      left:88.5%;
+      width: 10%;
+      padding: 0;
+      background: 0;
+      border: 0;
+      transform: translateY(-50%);
+      
+    }
+    .filter-button {
+      padding: 5px;
+      font-size: 15px;
+    }
+    .filter {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    body {
+      background-color: white;
+    }
+    .pokemon-grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 10px;
+    }
+    .pokemon-item {
+      width: 48%; 
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .pokemon-search {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      max-height: 6%;
+      border-radius: 10px;
+      padding: 2.5px;
+      gap: 10px;
+    }
+    .extra-button {
+      display: flex;
+      align-items: center;
+      min-width: 10%;
+      height: 40px;
+    }
+    .extra-button button {
+     font-size: 14px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    .buttons-container {
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+      width: 40%;
+    }
+    .buttons-container button {
+      height: 35px;
+      width: 7%;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+    #Prevv, #Nextt {
+      width: 100%;
+      height: 35px;
+      background-color: lightgray;
+      color: black;
+      border: 0;
+      font-size: 14px;
+    }
+    .pokemon {
+      width: 90%;
+      height: 20%;
+    }  
+    .name {
+      margin: 0;
+      padding: 0;
+      width: auto;
+    }
+    #pokemon-id {
+     margin: 0;
+     margin-top: 5%;
+    }
+    #pokemon-name {
+      font-size: 25px;
+    }
+    .Description {  
+      width: 90%;
+    }
+    .Description p {
+      font-size: 14px;
+      padding-left: 20px;
+    }
+    #Desc {
+      padding: 10px 0 5px 20px;
+      font-size: 17px;
+    }
+    .PhysicalAtributes {
+      display: block;
+      width: 90%;
+      height: 15%;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    #Physical {
+      width: 100%;
+      font-size: 17px;
+      padding: 10px 0 5px 20px;
+      display: block;
+    }
+    .Height, .Abilites {
+      height: 20%;
+      padding-left: 4%;
+      margin-bottom: 5px;
+    }
+    .PhysicalAtributes b {
+      font-size: 14px;
+    }
+    .BaseStats {
+      width: 90%;
+      margin-left: 6%;
+      height: 24%;
+    }
+    .stat {
+      height: 15%;
+    }
+    .stat-name, .stat-value {
+      font-size: 14px;
+    }
+    .stat-value {
+      margin-top: 3px;
+    }
+    #stats {
+      font-size: 17px;
+      padding: 0 0 5px 5px;
+      display: block;
+    }
+    .belt {
+      width: 95%;
+    }
+    .all-stats {
+      width: 100%;
+    }
+    #Evo {
+      padding: 15px 0 10px 25px;        
+      font-size: 18px;                  
+      width: 100%;
+      display: flex;                    
+      justify-content: flex-start;      
+      align-items: center;            
+      margin-bottom: 15px;          
+    }
+    .evolution {
+      display: inline-block;   
+      height: 110px;           
+      width: 110px;            
+      text-align: center;             
+      margin-right: 15px;        
+      margin-bottom: 15px;           
+    }
+    .evolution-images {
+      height: 110px;                   
+      text-align: center;
+      flex-wrap: wrap;               
+      margin-top: 0%;
+    }
+    .evolution img {
+      margin: 0;
+      padding: 0;
+      width: 110px;                   
+      height: 110px;                  
+      display: block;
+      margin: 0 auto;             
+    }
+    .highlight {
+      width: 110px;                   
+      height: 110px;                 
+      font-weight: bold;
+      margin-right: 25px;             
+    }
+    .highlight p {
+      text-align: center;
+      font-size: 16px;                 
+      margin: 0;
+    }
+    .evolution p {
+      font-size: 16px;                  
+      text-align: center;
+    }
+    #arrow {
+      height: 0;
+      width: 0;
+      margin-bottom: 60%;
+      display: none;
+    }
+    .Moves {
+      width: 90%;
+    }
+    .moves-table {
+      margin-top: 0;
+      width: 100%;
+    }
+    .Moves p {
+      padding: 5px 0 5px 20px;
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .filter.open {
+      font-size: 25px;
+      width: 100%;
+  }
+    .filter-button {
+      padding: 15px;
+      font-size: 18px;
+      
+    }
+    .filter .close-button {
+      padding: 20px;
+      font-size: 25px;
+    }
+    .filter p {
+      font-size: 25px;
+      
+    }
+    .filter input {
+      font-size: 25px;
+    }
+    .search-button {
+      font-size: 25px;
+    }
+    .filter-button-div {
+      right: 0;
+    }
+}
+
+@media (min-width:850px) and (max-width: 911px) and (orientation: portrait) {
+    .buttons {
+      min-height: 8%;
+    }
+    .extra-button button {
+      font-size: 22px;
+    }
+    #Prevv, #Nextt {
+      font-size: 22px;
+      height: 40px;
+    }
+    #pokemon-id {
+      font-size: 20px;
+    }
+    #pokemon-name {
+      font-size: 30px;
+    }
+    .Description {
+      height: 14%;
+    }
+    #Desc {
+    font-size: 25px; 
+    }
+    .Description p {
+      font-size: 18px;
+    }
+    #Physical {
+      font-size: 25px;
+    }
+    .PhysicalAtributes {
+      height: 18%;
+    }
+    #grey {
+      font-size: 20px;
+    }
+    .PhysicalAtributes b {
+      font-size: 18px;
+    }
+    .BaseStats {
+      height: 29%;
+    }
+    #stats {
+      font-size: 25px;
+    }
+    .belt {
+      height: 15px;
+    }
+    .belt .filled {
+      height: 15px;
+      background-color: red;
+    }
+    .stat-name {
+      font-size: 16px;
+    }
+    .stat-value {
+      font-size: 16px;
+    }
+    .EvolutionChain {
+      height: auto; 
+      text-align: center; 
+    }
+    #Evo {
+      font-size: 25px;
+      padding: 0;
+      padding: 0px 0 0px 20px;
+    }
+    .evolution-images {
+    height: auto;
+    }
+    .evolution {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      height: auto;
+      width: auto;
+      margin-top: 11%;
+    }
+    .evolution img {
+      height: 90px;
+      width: 90px;
+      object-fit: cover;
+      padding-bottom: 50%;
+      padding: 0;
+    }
+    .evolution p {
+      margin-top: 5px; 
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .Moves p {
+      font-size: 25px;
+    }
+    .moves-table td {
+      padding: 10px;
+      text-align: center;
+      font-size: 15px;
+    }
+}
+
+@media (min-width: 912px) and (max-width: 1024px) and (orientation: portrait) {
+    
+    .pokemonitem {
+      width: 50%;
+      height: 50%;
+    }
+    .bottom {
+      height: 100%;
+    }
+    .top {
+      height: 140px;
+    }
+    .top img {
+      height: 135px; 
+    }
+    .pokemon-id {
+      font-size: 20px;
+      width: 50px;
+      height: 0px;
+      position: relative;
+      left: 88%;
+    }
+    #pokemonname {
+      font-size: 25px;
+    }
+    .buttons {
+      height: 200px;
+      max-height: 8%;
+    }
+    .extra-button button{
+      font-size: 25px;
+      height: 50px;
+    }
+    #Prevv, #Nextt {
+      height: 50px;
+      font-size: 25px;
+    }
+    .pokemon {
+      height: 20%;
+    }
+    .name {
+      width: auto;
+      font-size: 25px;
+    }
+    #pokemon-name {
+      font-size: 40px;
+    }
+    .Description {
+      height: 13%;
+    }
+    #Desc {
+      font-size: 30px;
+    }
+    .Description p {
+      font-size: 22px;
+    }
+    .PhysicalAtributes {
+      height: 22%;
+    }
+    #Physical {
+      font-size: 30px;
+    }
+    #grey {
+      font-size: 25px; 
+    }
+    .PhysicalAtributes b {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    .Height .Abilites {
+      height: 25%;
+      margin-bottom: 5px;
+    }
+    .BaseExperience  {
+      padding-top: 25px;
+    }
+    .Abilites {
+      padding-top: 25px;
+    }
+    #stats {
+      font-size: 30px;
+    }
+    .stat {
+      height: 18%; 
+    }
+    .belt {
+      height: 15px;
+    }
+    .belt .filled {
+      height: 15px;
+      background-color: red;
+    }
+    .stat-name, .stat-value {
+      font-size: 20px;
+    }
+    .BaseStats {
+      height: 38%;
+    }
+    .EvolutionChain {
+      margin-top: 30px;          
+      margin-bottom: 10px;           
+      width: 85%;                   
+      margin-left: 6%;
+      float: left;
+      display: flex;         
+      justify-content: center;      
+      align-items: center;           
+      flex-direction: column;      
+      text-align: center;            
+  }
+  .evolution-images {
+      display: flex;                
+      justify-content: center;     
+      align-items: center;         
+      margin-bottom: 10px;           
+  }
+  .evolution img {
+      height: 120px;                 
+      width: 120px;                
+      object-fit: cover;          
+      margin: 0 10px;               
+  }
+  .evolution {
+      display: flex;             
+      flex-direction: column;        
+      justify-content: center;    
+      text-align: center;           
+  }
+  .evolution p {
+      font-size: 18px;            
+      margin: 0;    
+  }
+  #Evo {
+      font-size: 22px;       
+      font-weight: bold;             
+      margin-bottom: 20px;           
+  }
+  .highlight {
+      display: flex;                 
+      justify-content: center;  
+      align-items: center;         
+      width: 120px;                  
+      height: 120px;              
+      font-weight: bold;         
+      margin-bottom: 15px;          
+  }
+  .highlight p {
+      font-size: 16px;         
+      text-align: center;            
+      margin: 0;                    
+  }
+    .Moves p{
+      font-size: 25px;
+    }
+    .moves-table td {
+      font-size: 20px;
+    }
+    #movesbutton {
+      font-size: 25px;
+      width: 175px;
+    }
+
+    .filter.open {
+      font-size: 35px;
+      width: 100%;
+     }
+    .filter-button {
+      padding: 15px;
+      font-size: 35px;
+    }
+    .filter .close-button {
+      padding: 25px;
+      font-size: 35px;
+    }
+    .filter p {
+      font-size: 35px;
+      
+    }
+    .filter input {
+      font-size: 35px;
+    }
+    .search-button {
+      font-size: 35px;
+    }
+    .filter-button-div {
+      right: 0;
+      padding: 45px;
+     width: 115px;
+    }
+}
+  
+  @media (max-width: 768px) and (orientation: landscape) {
+    .web {
+        width: 100%;
+        margin: 0;
+    }
+    .buttons {
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between; 
+        height: 50px; 
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .extra-button button {
+        height: 35px; 
+        font-size: 12px;
+        width: 150px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        margin-left: 13%;   
+    }
+    .buttons-container {
+        width: 50%;
+        display: flex;  
+        justify-content: flex-end;  
+        margin-right: 9.5%; 
+    }
+    #Prevv, #Nextt {
+        width: 75px;
+        height: 35px;
+        background-color: lightgray;
+        color: black;
+        border: 0;
+        font-size: 10px;
+        margin-left: 10px;  
+    } 
+  }
+  @media (max-width: 1000px) and (orientation: landscape) {
+    .filter.open {
+      font-size: 20px;
+      width: 100%;
+      padding: 0px 5px 5px 5px;
+    }
+    .filter-button {
+      padding: 4px;
+      font-size: 20px;
+    }
+    .filter .close-button {
+      padding: 0 20px 0 20px;
+      font-size: 25px;
+      position: relative;
+      left: 90%;
+    }
+    .filter p {
+      font-size: 20px;
+      margin: 0;
+    } 
+    .filter input {
+      font-size: 15px;
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+    .search-button {
+      font-size: 15px;
+      margin: 0;
+    }
+    .filter-button-div {
+      right: 0.5%;
+      padding: 25px;
+      width: 0px;
+    }
+    .filter div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20px; 
+    }    
+    .filter div label {
+      display: block;
+      margin-bottom: 5px;
+    } 
+    .filter div input {
+      width: 100%; 
+      padding: 6px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+  }
+  @media (min-width: 1000px) and (orientation: landscape) {
+    .filter.open {
+      font-size: 20px;
+      width: 100%;
+      padding: 0px 5px 5px 5px;
+    }
+    .filter-button {
+      padding: 15px;
+      font-size: 25px;
+    }
+    .filter .close-button {
+      padding: 0 20px 0 20px;
+      font-size: 25px;
+      position: relative;
+      left: 90%;
+    }
+    .filter p {
+      font-size: 20px;
+      margin: 0;
+    } 
+    .filter input {
+      font-size: 15px;
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+    .search-button {
+      font-size: 15px;
+      margin: 0;
+    }
+    .filter-button-div {
+      right: 0.5%;
+      padding: 25px;
+      width: 110px;
+    }
+    .filter div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20px; 
+    }    
+    .filter div label {
+      display: block;
+      margin-bottom: 5px;
+    } 
+    .filter div input {
+      width: 100%; 
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+  }
+  @media (min-width: 1300px) and (orientation: landscape) {
+    .filter.open {
+      font-size: 30px;
+      width: 100%;
+      padding: 0px 5px 5px 5px;
+    }
+    .filter-button {
+      padding: 15px;
+      font-size: 25px;
+    }
+    .filter .close-button {
+      padding: 0 20px 0 20px;
+      font-size: 40px;
+      position: relative;
+      left: 90%;
+    }
+    .filter p {
+      font-size: 30px;
+      margin: 0;
+    } 
+    .filter input {
+      font-size: 25px;
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+    .search-button {
+      font-size: 25px;
+      margin: 0;
+    }
+    .filter-button-div {
+      right: 0.5%;
+      padding: 35px;
+      width: 110px;
+    }
+    .filter div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20px; 
+    }    
+    .filter div label {
+      display: block;
+      margin-bottom: 5px;
+    } 
+    .filter div input {
+      width: 100%; 
+      padding: 10px;
+      font-size: 25px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+  }
+  @media (min-width: 1301px) and (orientation: landscape) {
+    .filter.open {
+      font-size: 25px;
+      width: 100%;
+      padding: 0px 5px 5px 5px;
+    }
+    .filter-button {
+      padding: 15px;
+      font-size: 25px;
+    }
+    .filter .close-button {
+      padding: 0 20px 0 20px;
+      font-size: 30px;
+      position: relative;
+      left: 90%;
+    }
+    .filter p {
+      font-size: 25px;
+      margin: 0;
+    } 
+    .filter input {
+      font-size: 15px;
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+    .search-button {
+      font-size: 15px;
+      margin: 0;
+    }
+    .filter-button-div {
+      right: 12.5%;
+      padding: 25px;
+      width: 110px;
+    }
+    .filter div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20px; 
+    }    
+    .filter div label {
+      display: block;
+      margin-bottom: 5px;
+    } 
+    .filter div input {
+      width: 100%; 
+      padding: 10px;
+      font-size: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .filter div label {
+      font-size: 22px;
+    }
+   }
